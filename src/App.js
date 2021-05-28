@@ -13,7 +13,7 @@ function App() {
       <button onClick={() => dispatch(foodStore.buyIceCream(4))} >Buy IceCream</button>
       <button>Sell Cake</button>
       <button>Sell Ice-Cream </button>
-
+      <h1>hii my name is raj</h1>
     </div>
   );
 }
