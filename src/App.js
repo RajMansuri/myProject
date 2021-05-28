@@ -11,6 +11,9 @@ function App() {
       <button onClick={() => dispatch(foodStore.buyCake(2))} >Buy Cake</button>
       <p>{noOfIceCream}</p>
       <button onClick={() => dispatch(foodStore.buyIceCream(4))} >Buy IceCream</button>
+      <button>Sell Cake</button>
+      <button>Sell Ice-Cream </button>
+
     </div>
   );
 }
